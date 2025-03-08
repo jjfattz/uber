@@ -150,6 +150,18 @@ obtain these credentials by signing up on
 the [Clerk](https://clerk.com/), [Stripe](https://stripe.com/in), [NeonDB](https://neon.tech/), [Google Maps](https://console.cloud.google.com/)
 and [geoapify](https://www.geoapify.com/) websites respectively.
 
+**Enable Native API in Clerk**
+
+In Clerk, go to: Configure > Developers > Native Applications.
+
+Activate the "Enable Native API" setting.
+
+**Create the Database Tables in NeonDB**
+
+In your NeonDB account, select the database you created and then navigate to the SQL Editor.
+
+Copy and paste in the SCHEMA queries below to create the necessary database tables.
+
 **Running the Project**
 
 ```bash
